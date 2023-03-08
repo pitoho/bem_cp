@@ -1,0 +1,146 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 1000px;
+}
+
+.database-icon{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 660px;
+    left: 550px;
+}
+.legend{
+    margin-bottom: 50px ;
+}
+.legend__item{
+    display: flex;
+}
+.legend__item__image{
+    width: 30px;
+    height: 40px;
+    margin: 5px;
+}
+.dbase{
+    display: flex;
+    flex-direction: row;
+}
+.dbase__clients{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    width: 300px;
+
+}
+
+.dbase__clients__client{
+   background-color: #777777; 
+   width: 250px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   margin-bottom: 10px;
+   position: relative;
+}
+.dbase__clients__client__connection__client-zuul{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+    left: 200px;
+}
+.dbase__middle-block{
+    background-color: #777777;
+    height: 300px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+.dbase__middle-block__connection__zuul-eureka{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    top: 107px;
+    left: 100px;
+}
+.dbase__middle-block__image{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+.dbase__middle-block__text{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dbase__services{
+    /* background-color: aqua; */
+    height: 400px;
+    width: 350px;
+    margin-left: 40px;
+}
+.dbase__services__service{
+    background-color: #777777;
+    width: 350px;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.dbase__services__service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dbase__services__service__text{
+    width: 240px;
+}
+.lines{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+}
+.lines__green-line{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+}
+.num1{
+    top: -150px;
+    left: 5px;
+    rotate: -45deg;
+}
+.num2{
+    top: -80px;
+    left: 5px;
+    
+}
+.num3{
+    top: 20px;
+    left: 5px;
+    rotate: 45deg;
+}
+.num4{
+    top: 70px;
+    left: 0px;
+    rotate: 55deg;
+}
+.num5{
+    top: 90px;
+    left: 14px;
+    rotate: 55deg;
+}
